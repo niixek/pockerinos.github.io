@@ -47,7 +47,18 @@
     <img src="images/practice-pics/mochi.svg">
     <p>This is an SVG!</p>
 
-
+    <h2>Image Dimensions</h2>
+    <p>The img element inherits the dimensions of its image file by default. Pixel-
+      based graphics need to be twice as big the size you want for retina displays.</p>
+    <p>To get pixel-based images down to the size you want, you can use the width attribute
+      for img elements.</p>
+    <p>For example:</p>
+    <img src="images/practice-pics/mochi.jpg" width="75">
+    <img src="images/practice-pics/mochi.gif" width="75">
+    <img src="images/practice-pics/mochi.png" width="75">
+    <p>There is also a height attribute, and setting either one will scale
+      the other one proportionally. Setting both will stretch the image. These
+      dimensions are defined in pixels.</p>
 
   </body>
 </html>
