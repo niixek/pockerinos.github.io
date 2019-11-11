@@ -1,6 +1,22 @@
-body{
-  color: #414141;   /*Dark gray*/
-
+body {
   /*This is how you comment in CSS*/
+  color: #414141;               /*Dark gray*/
+  background-color: #EEEEEE;    /*Light gray*/
 
+  /*This defines the base font size of the linked page*/
+  font-size: 18px;
+}
+
+h1 {
+  /*The "em" unit multiplies the base font size by the value*/
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+/*You can change multiple things at once like so*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
 }
