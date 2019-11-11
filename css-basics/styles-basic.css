@@ -18,7 +18,11 @@ h2 {
 
 /*You can change multiple things at once like so*/
 h1, h2, h3, h4, h5, h6 {
+  /*Adding fonts like this allows the site to go down the list, left to right*/
   font-family: "Helvetica", "Arial", sans-serif;
+
+  /*This disables bolding*/
+  font-weight: normal;
 }
 
 ul {
@@ -27,4 +31,14 @@ ul {
 
 ol {
   list-style-type: lower-roman;
+}
+
+a {
+  /*This can remove the underline from the link*/
+  text-decoration: none;
+}
+
+p {
+  /*It's best to left align the text*/
+  text-align: left;
 }
